@@ -70,7 +70,7 @@ Libera un frame (lo vuelve FREE). Se usa solo en el rollback del load.
 
 `void ram_print_map(const RAM *ram)`
 Imprime el mapa de los 100 frames en 10 columnas. Cada frame muestra su indice y estado:
-F = libre, X = hueco pre-existente, 1 = Proceso 1, 2 = Proceso 2.
+F = libre, X = pre-existente, 1 = Proceso 1, 2 = Proceso 2.
 
 ---
 
@@ -178,7 +178,7 @@ En el mapa de consola los frames del proceso 1 se muestran como `1` y los del pr
 10x10 de los 100 frames, cada uno con color segun su estado:
 
 - Gris — frame libre
-- Rojo — hueco pre-existente
+- Rojo — pre-existente
 - Azul — frame del Proceso 1
 - Verde — frame del Proceso 2
 

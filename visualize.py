@@ -41,7 +41,7 @@ occ_val  = occ_m.group(1)  if occ_m  else '?'
 # ---------- colores por estado ----------
 COLOR = {
     'F': ('#dfe6e9', '#636e72', 'Libre'),
-    'X': ('#e17055', '#ffffff', 'Ocupado (hueco)'),
+    'X': ('#e17055', '#ffffff', 'Ocupado'),
     '1': ('#0984e3', '#ffffff', 'Proceso 1'),
     '2': ('#00b894', '#ffffff', 'Proceso 2'),
 }
